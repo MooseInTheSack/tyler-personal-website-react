@@ -11,10 +11,8 @@ import Home from './components/Home/Home'
 function App() {
   return (
     <div className="App">
-
     <BrowserRouter>
-      <div className="App">
-      <Container maxWidth="md">
+      <Container disableGutters={true}>
 
         <Route
           path="/"
@@ -39,7 +37,6 @@ function App() {
           )}
         />
         </Container>
-      </div>
     </BrowserRouter>
       
     </div>

@@ -1,0 +1,26 @@
+.Header {
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 10vh;
+  }
+
+.Test {
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.Body {
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.Row {
+    padding-bottom: 10vh;
+}
