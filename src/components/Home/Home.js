@@ -55,6 +55,19 @@ export default function Home() {
             <Paper className="Test">Three</Paper>
           </Grid>
         </Grid>
+
+        <h2>Books</h2>
+        <Grid className="Row" container spacing={3}>
+          <Grid item xs={4}>
+            <Paper className="Test">Born to Run</Paper>
+          </Grid>
+          <Grid item xs={4}>
+            <Paper className="Test">The Organized Mind</Paper>
+          </Grid>
+          <Grid item xs={4}>
+            <Paper className="Test">Unbroken</Paper>
+          </Grid>
+        </Grid>
       </div>
     </div>
   )

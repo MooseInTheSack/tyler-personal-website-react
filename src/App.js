@@ -5,7 +5,7 @@ import Tab from "@material-ui/core/Tab";
 import Container from '@material-ui/core/Container';
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import Contact from './components/Contact/Contact'
-import About from './components/About/About'
+import Blog from './components/Blog/Blog'
 import Home from './components/Home/Home'
 
 function App() {
@@ -21,16 +21,16 @@ function App() {
               <Tabs centered="true" value={location.pathname}>
                 <Tab label="Home" component={Link} to="/" />
                 <Tab
-                  label="About"
+                  label="Blog"
                   href="#basic-tabs"
                   component={Link}
-                  to="/about"
+                  to="/blog"
                 />
                 <Tab label="Contact" component={Link} to="/contact" />
               </Tabs>
               <Switch>
                 <Route path="/contact" render={Contact} />
-                <Route path="/about" render={About} />
+                <Route path="/blog" render={Blog} />
                 <Route path="/" render={Home} />
               </Switch>
             </Fragment>
