@@ -1,12 +1,12 @@
 .Header {
-    background-color: #282c34;
+    background-color: #ffffff;
     min-height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    
     margin-bottom: 10vh;
   }
 
@@ -22,5 +22,22 @@
 }
 
 .Row {
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
+}
+
+.RowNoPadding {
+    padding-bottom: 0vh;
+}
+
+.selfie {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridBox {
+}
+
+.title {
+    font-weight: bold;
 }
